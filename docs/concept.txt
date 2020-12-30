@@ -1,0 +1,59 @@
+1. repository structure
+
+project/
+│
+├── env/            => for virtual environment
+│
+├── conf/           => for your API Configuration
+│
+├── lib/            => for your C-language libraries
+│
+├── docs/
+│   ├── concept.txt
+│   ├── hello.md
+│   └── world.md
+│
+├── project/
+│   ├── __init__.py
+│   ├── runner.py
+│   ├── hello/
+│   │   ├── __init__.py
+│   │   ├── hello.py
+│   │   ├── conf.py
+│   │   └── helpers.py
+│   │
+│   └── world/
+│       ├── __init__.py
+│       ├── helpers.py
+│       └── world.py
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── cleaned/
+│
+├── sample/
+│   ├── hello/
+│   └── world/
+│
+├── tests/
+│   ├── hello
+│   │   ├── __init__.py
+│   │   ├── helpers_tests.py
+│   │   └── hello_tests.py
+│   │
+│   └── world/
+│       ├── helpers_tests.py
+│       └── world_tests.py
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+
+
+2. github ignore
+
+
+3. abstract factory pattern source
+
