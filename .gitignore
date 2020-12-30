@@ -4,6 +4,11 @@ configuration/
 .conf
 conf/
 
+# Used for Sample/JustIdeas
+.sample
+sample/
+.idea
+idea/
 # Used for Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
