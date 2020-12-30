@@ -2,7 +2,7 @@
 
 ## Design Pattern Concept
 
-For this Project I selected to use Abstract Factory Pattern:
+For this Project I selected the Abstract Factory Pattern:
 
 ### Benefits
 * easy to maintain and control the classes of objects
