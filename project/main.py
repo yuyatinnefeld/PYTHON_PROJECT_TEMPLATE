@@ -1,3 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+""" 
+---------------------------------------------
+# Data Extractor Software
+# (C) 2021 Yuya Tinnefeld, Düsseldorf, Germany
+# email: yuyatinnefeld@gmail.com
+---------------------------------------------
+"""
+
 from extractor import *
 
 def generate(extractor: DataExtractor) -> None:
