@@ -1,7 +1,21 @@
-from pathlib import Path  # pathlib is seriously awesome!
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-data_dir = Path('/path/to/some/logical/parent/dir')
-api_path = data_dir / 'my_api.py'  # use feather files if possible!!!
+""" 
+---------------------------------------------
+# PYTHON TEMPLATE
+# (C) 2021 Yuya Tinnefeld, Düsseldorf, Germany
+# email: yuyatinnefeld@gmail.com
+---------------------------------------------
+"""
 
-customer_db_url = 'sql:///customer/db/url'
-purchases_db_url = 'sql:///purchases/db/url'
+import sys 
+sys.path.insert(1, '/Users/yuyatinnefeld/Desktop/projects/py_template/conf/')
+from sample_api import sampleAPIClass
+
+api = sampleAPIClass()
+get_key = api.key
+get_secret = api.secret
+
+print(f'🐍 key: {get_key}')
+print(f'🐍 secret: {get_secret}')

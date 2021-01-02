@@ -1,17 +1,58 @@
-# Python Data Extractor
+# PYTHON TEMPLATE
 
-## Design Pattern Concept
+## Goal
 
-For this Project I selected the Abstract Factory Pattern:
+This template is for everybody who want to create easy a standardized python project
 
-### Benefits
-* easy to maintain and control the classes of objects
-* consistency among objects and unification of the functions of different extractors
-* quickly scalable project capacities
+## Structure
 
-
-### Example
-AbstractFactory => DataExtractor
-ConcreteFactory => Data Format (CSV, API, SQL, JSON, Text, PDF, SAS, etc.)
-AbstractProduct => Data Source / Tools (Analytics, CRM, Web Scraping, Streaming, Social Media, etc.)
-ConcreteProduct => Source + Format (GoogleAnalyticsAPIExtractor, TwitterAPIExtractor, FacebookCSVExtractor)
+project/
+│
+├── env/
+│
+├── conf/
+│
+├── lib/
+│
+├── docs/
+│   ├── concept.txt
+│   ├── app1.md
+│   └── app2.md
+│
+├── project/
+│   ├── main.py
+│   ├── conf.py
+│   ├── app1/
+│   │   ├── __init__.py
+│   │   ├── app1.py
+│   │   └── helpers.py
+│   │
+│   └── app2/
+│       ├── __init__.py
+│       ├── app2.py
+│       └── helpers.py
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── cleaned/
+│
+├── sample/
+│   ├── app1/
+│   └── app2/
+│
+├── tests/
+│   ├── test_main.py
+│   ├── app1/
+│   │   ├── __init__.py
+│   │   ├── test_app1.py
+│   │   └── test_helpers1.py
+│   │
+│   └── app2/
+│       ├── test_app2.py
+│       └── test_helpers2.py
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt

@@ -8,10 +8,3 @@
 # email: yuyatinnefeld@gmail.com
 ---------------------------------------------
 """
-
-def sample_function():
-    print("template function")
-
-if __name__ == "__main__":
-    sample_function()
-

@@ -9,9 +9,14 @@
 ---------------------------------------------
 """
 
-def sample_function():
-    print("template function")
+class sampleAPIClass():
+    def __init__(self):
+        self.key = "sample-API-key-xxxxx"
+        self.secret = "sample-API-secret-xxxxx"
 
-if __name__ == "__main__":
-    sample_function()
+    def get_key(self):
+        return self.key
 
+    
+    def get_secret(self):
+        return self.secret
