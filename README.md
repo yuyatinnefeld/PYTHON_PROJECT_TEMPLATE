@@ -2,7 +2,7 @@
 
 ## Goal
 
-This template is for everybody who want to create easy a standardized python project
+This template is created to manage/standardized easy the python projects
 
 ## Structure
 
