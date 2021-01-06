@@ -1,8 +1,21 @@
-# PYTHON TEMPLATE
+<h1 align="center">Python Project Template </h1> <br>
+<h2 align="center">🚀 🐍 🚀 🐍 🚀 🐍 🚀 🐍 🚀 🐍 🚀 🐍 </h2> <br>
 
-## Goal
+## Table of Contents
 
-This template is created to manage/standardized easy the python projects
+- [About](#about)
+- [Benefit](#benefit)
+- [Info](#info)
+- [Structure](#structure)
+
+## Benefit
+The good respository structured python project is a crucial part of your application for a healthy development cycle today. You can clone this github repo to use the standardized application template and manage/standardized easy the python projects. Though the unify project structure you can create and keep clean, effective codes.
+
+## Info
+
+https://realpython.com/python-application-layouts/
+
+https://docs.python-guide.org/writing/structure/
 
 ## Structure
 
