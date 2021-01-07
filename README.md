@@ -9,11 +9,10 @@
 - [Structure](#structure)
 
 ## About
-The good respository structured python project is a crucial part of your application for a healthy development cycle today. You can clone this github repo to use the standardized application template and manage/standardized easy the python projects. 
+A well structured software project is a crucial part of the application for a successful development cycle today. You can clone this github repository to use as a standardized python application template and can easily manage your python projects. 
 
 ## Benefit
- Through the unify project structure and layout you can create and keep clean, effective codes. It is easy to take over or scale up your application project consistently for other project and helps you saving time. 
-
+ Through the unified project structure and layout, you can create effective codes. It is easy to keep your application project consistent and clean.
 ## Info
 
 https://realpython.com/python-application-layouts/
