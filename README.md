@@ -8,8 +8,11 @@
 - [Info](#info)
 - [Structure](#structure)
 
+## About
+The good respository structured python project is a crucial part of your application for a healthy development cycle today. You can clone this github repo to use the standardized application template and manage/standardized easy the python projects. 
+
 ## Benefit
-The good respository structured python project is a crucial part of your application for a healthy development cycle today. You can clone this github repo to use the standardized application template and manage/standardized easy the python projects. Though the unify project structure you can create and keep clean, effective codes.
+ Through the unify project structure and layout you can create and keep clean, effective codes. It is easy to take over or scale up your application project consistently for other project and helps you saving time. 
 
 ## Info
 
