@@ -15,8 +15,8 @@ import os
 cwd = os.getcwd()
 tests = os.path.dirname(cwd)
 project_path = os.path.dirname(tests)
-print(project_path)
-sys.path.insert(1, f'{project_path}/project/app1/')
+project_app1 = os.path.join(project_path, "project/app1")
+sys.path.insert(1, project_app1)
 
 from app1 import app1Object
 
