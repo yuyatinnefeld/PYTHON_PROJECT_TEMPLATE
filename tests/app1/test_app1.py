@@ -10,7 +10,14 @@
 """
 import unittest
 import sys 
-sys.path.insert(1, '/Users/yuyatinnefeld/Desktop/projects/py_template/project/app1/')
+import os
+
+cwd = os.getcwd()
+tests = os.path.dirname(cwd)
+project_path = os.path.dirname(tests)
+print(project_path)
+sys.path.insert(1, f'{project_path}/project/app1/')
+
 from app1 import app1Object
 
 class TestMyApp(unittest.TestCase):

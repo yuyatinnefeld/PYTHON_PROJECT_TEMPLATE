@@ -13,8 +13,8 @@ import sys
 import os
 
 cwd = os.getcwd()
-dir_over = os.path.dirname(cwd)
-sys.path.insert(1, f'{dir_over}/conf/')
+project_path = os.path.dirname(cwd)
+sys.path.insert(1, f'{project_path}/conf/')
 from sample_api import sampleAPIClass
 
 api = sampleAPIClass()
