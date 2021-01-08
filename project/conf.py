@@ -14,7 +14,9 @@ import os
 
 cwd = os.getcwd()
 project_path = os.path.dirname(cwd)
-sys.path.insert(1, f'{project_path}/conf/')
+conf_path = os.path.join(project_path, "conf")
+sys.path.insert(1, conf_path)
+
 from sample_api import sampleAPIClass
 
 api = sampleAPIClass()
