@@ -9,8 +9,12 @@
 ---------------------------------------------
 """
 
-import sys 
-sys.path.insert(1, '/Users/yuyatinnefeld/Desktop/projects/py_template/conf/')
+import sys
+import os
+
+cwd = os.getcwd()
+dir_over = os.path.dirname(cwd)
+sys.path.insert(1, f'{dir_over}/conf/')
 from sample_api import sampleAPIClass
 
 api = sampleAPIClass()
