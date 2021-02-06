@@ -1,14 +1,13 @@
 <h1 align="center">Python Project Template </h1> <br>
-<h2 align="center">🚀 🐍 🚀 🐍 🚀 🐍 🚀 🐍 🚀 🐍 🚀 🐍 </h2> <br>
 
-## Table of Contents
+<h2>🐍 Table of Contents 🐍</h2>
 
 - [About](#about)
 - [Benefit](#benefit)
 - [Info](#info)
 - [Structure](#structure)
 
-## About
+<h2>⚡ About ⚡ </h2>
 A well structured software project is a crucial part of the application for a successful development cycle today. You can clone this github repository to use as a standardized python application template and can easily manage your python projects. 
 
 ## Benefit
